@@ -91,16 +91,34 @@
     text-align: justify;
     text-justify: inter-word;
 }
-.quote span{
-    display: block;
-    text-align: right;
-    font-weight: bold;
-    margin-top: 8px;
+.quote span {
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
 }
 
-/* Force last line to justify in some browsers */
-.quote p:after{
-    content: "";
-    display: inline-block;
-    width: 100%;
+/* CTA */
+.cta {
+  padding: 80px 100px;
+}
+
+.cta-box {
+  background: #3b82f6;
+  color: white;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cta-btn {
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
