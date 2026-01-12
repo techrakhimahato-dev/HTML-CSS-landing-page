@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.post-preview {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.post-preview a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 20px;
+}
